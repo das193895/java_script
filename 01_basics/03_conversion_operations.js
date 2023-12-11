@@ -41,7 +41,19 @@ console.log(typeof(value_in_string_num))  // string
 
 
 
-/*********************/
+/*********************  OPERATIONS ************************/
+
+// 2+2 , 2-2 , 2/2 , 2*2 , 2 ** 2 (2^2) , 2 % 2 
+
+console.log("hello "+"world")  // hello world (String concaenation)
+
+console.log("1"+2);  // 12
+console.log(1+"2");  // 12
+console.log("1"+2+2);  // 122
+console.log(1+1+"2");  //22
+
+
+// prefix and postfix operators ( ++p && p++)
 
 
 
