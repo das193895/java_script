@@ -24,3 +24,22 @@ console.log(myarray,myarray.splice(1,4));  // [ 1, true, 'hfjfh' ] and [2,3,4,5]
 
 // console.log(myarray)
 
+
+const arr1 = [1,2,3,4];
+const arr2 = [6,7,8,9];
+
+let new_arr3 = arr1.concat(arr2);
+console.log(new_arr3);  // [1,2,3,4,5,6,7,8,9]
+
+console.log([...arr1,...arr2]);   // [1,2,3,4,5,6,7,8,9]  (spread )
+
+console.log([1,2,3,[456,89,0],9,35,[45,92,[98,10,492]]].flat(Infinity));    //[1,  2,  3, 456, 89,  0, 9, 35, 45,  92, 98, 10,49]
+
+console.log(Array.isArray("hgdhgh")); //false
+
+console.log(Array.from("ghfgnffn"));  // ['g', 'h', 'f', 'g', 'n', 'f','f', 'n']
+
+console.log(Array.from({name:"hhgdhd"}));  // interesting  , []
+
+console.log(Array.of(100,200,300));  // [ 100, 200, 300 ]
+
