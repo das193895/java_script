@@ -10,3 +10,9 @@ const anotherId = Symbol("123");
 console.log(id == anotherId);  // false
 
 // Remember the type of all types of Datatypes using "typeof" or read official documentation.
+
+
+
+/**************************************************/
+
+// Stack (Premitive)  and Heap (Non-premitive)
