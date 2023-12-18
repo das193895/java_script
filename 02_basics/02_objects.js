@@ -77,3 +77,19 @@ console.log(Object.entries(tinderUser));  // [ [ 'name', 'sam' ],[ 'location', '
 console.log(tinderUser.hasOwnProperty("isLogged")); // false
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));  // True
 
+/**************************************/
+
+// destructuring of objects
+
+const course = {
+    name:"jrjrjjy",
+    price:"456",
+    duration:"1month"
+}
+
+const {price : p} = course;
+
+console.log(p);
+
+
+
